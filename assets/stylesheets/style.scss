@@ -1,0 +1,109 @@
+@import 'bootstrap';
+
+#account-nav {
+  background: black;
+  color: white;
+  padding: 10px 0;
+
+  ul {
+    display: inline;
+
+    li {
+      display: inline;
+      color: grey;
+      padding: 0 5px;
+    }
+  }
+}
+#main-header {
+  padding: 20px 0;
+}
+#main-nav {
+  border-bottom: 2px solid #C22724;
+
+  .nav-tabs>li>a {
+    text-transform: uppercase;
+    color: #555;
+  }
+  .nav-tabs>li.active>a,
+  .nav-tabs>li.active>a:hover,
+  .nav-tabs>li.active>a:focus {
+    color: white;
+    background: #C22724;
+    border-radius: 0;
+  }
+}
+#content-body {
+  background: #F5F4F2;
+
+  .nav-tabs {
+    margin: 10px 0 20px;
+    border-bottom: 0;
+
+    >li>a {
+      text-transform: uppercase;
+      color: #C22724;
+    }
+    >li.active>a,
+    >li.active>a:hover,
+    >li.active>a:focus {
+      background-color: white;
+      border-left: 1px solid #E5E5E5;
+      border-right: 1px solid #E5E5E5;
+      border-bottom: 1px solid #E5E5E5;
+      color: black!important;
+      border-radius: 0;
+    }
+  }
+
+  hr {
+    clear: both;
+    height: 7px;
+    line-height: 7px;
+    font-size: 0;
+    margin-bottom: 23px;
+    background: #ccc url(../images/bg/checker_divider.gif) top left repeat-x;
+    margin: 10px 0 0;
+    opacity: 0.5;
+  }
+
+  #headlines {
+    background: white;
+    border: 1px solid #e5e5e5;
+
+    h2 {
+        font-size: 22px;
+    }
+    .headline-actions {
+      span {
+        padding: 5px 0 7px;
+
+        &.pull-left {
+          margin-right: 10px;
+        }
+        &.pull-right {
+          margin-left: 10px;
+        }
+      }
+    }
+
+    article {
+      padding: 0 0 5px;
+      border-bottom: 1px dotted #BABABA;
+
+      h2 a {
+        font-size: 22px;
+        color: #C22724;
+      }
+    }
+  }
+}
+#search-block {
+  background: white;
+  border: 1px solid #e5e5e5;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+#ad-block video {
+  width: 100%;
+}
